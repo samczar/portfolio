@@ -30,44 +30,18 @@ const Footer = () => {
 	return (
 		<FooterContainer>
 			<FooterWrap>
-				{/* <FooterLinksContainer>
+				<FooterLinksContainer>
 					<FooterLinksWrapper>
 						<FooterLinkItems>
 							<FooterLinkTitle> About Us</FooterLinkTitle>
-							<FooterLink to="/signin">How it works</FooterLink>
-							<FooterLink to="/signin">Testimonials</FooterLink>
-							<FooterLink to="/signin">Careers</FooterLink>
-							<FooterLink to="/signin">Terms of Service</FooterLink>
-							<FooterLink to="/signin">Investors</FooterLink>
-						</FooterLinkItems>
-						<FooterLinkItems>
-							<FooterLinkTitle> About Us</FooterLinkTitle>
-							<FooterLink to="/signin">How it works</FooterLink>
-							<FooterLink to="/signin">Testimonials</FooterLink>
-							<FooterLink to="/signin">Careers</FooterLink>
-							<FooterLink to="/signin">Terms of Service</FooterLink>
-							<FooterLink to="/signin">Investors</FooterLink>
+							<FooterLink to="/">My Stacks</FooterLink>
+							<FooterLink to="/">Testimonials</FooterLink>
+							<FooterLink to="/">My Services</FooterLink>
+							<FooterLink to="/">My Projects</FooterLink>
+							<FooterLink to="/">Contact Me</FooterLink>
 						</FooterLinkItems>
 					</FooterLinksWrapper>
-					<FooterLinksWrapper>
-						<FooterLinkItems>
-							<FooterLinkTitle> About Us</FooterLinkTitle>
-							<FooterLink to="/signin">How it works</FooterLink>
-							<FooterLink to="/signin">Testimonials</FooterLink>
-							<FooterLink to="/signin">Careers</FooterLink>
-							<FooterLink to="/signin">Terms of Service</FooterLink>
-							<FooterLink to="/signin">Investors</FooterLink>
-						</FooterLinkItems>
-						<FooterLinkItems>
-							<FooterLinkTitle> About Us</FooterLinkTitle>
-							<FooterLink to="/signin">How it works</FooterLink>
-							<FooterLink to="/signin">Testimonials</FooterLink>
-							<FooterLink to="/signin">Careers</FooterLink>
-							<FooterLink to="/signin">Terms of Service</FooterLink>
-							<FooterLink to="/signin">Investors</FooterLink>
-						</FooterLinkItems>
-					</FooterLinksWrapper>
-				</FooterLinksContainer> */}
+				</FooterLinksContainer>
 				<SocialMedia>
 					<SocialMediaWrap>
 						<SocialLogo to="/" onClick={toggleHome}>
