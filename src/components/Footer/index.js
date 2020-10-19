@@ -48,7 +48,7 @@ const Footer = () => {
 							SamC'zar
 						</SocialLogo>
 						<WebsiteRights>
-							SamC'zar {new Date().getFullYear()} All rights reversed .
+							SamCzar {new Date().getFullYear()} All rights reversed .
 						</WebsiteRights>
 						<SocialIcons>
 							<SocialIconLink href="/" target="_blank" aria-label="Facebook">
