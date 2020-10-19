@@ -33,7 +33,7 @@ const Footer = () => {
 				<FooterLinksContainer>
 					<FooterLinksWrapper>
 						<FooterLinkItems>
-							<FooterLinkTitle> About Us</FooterLinkTitle>
+							<FooterLinkTitle> About Me</FooterLinkTitle>
 							<FooterLink to="/">My Stacks</FooterLink>
 							<FooterLink to="/">Testimonials</FooterLink>
 							<FooterLink to="/">My Services</FooterLink>
@@ -45,7 +45,7 @@ const Footer = () => {
 				<SocialMedia>
 					<SocialMediaWrap>
 						<SocialLogo to="/" onClick={toggleHome}>
-							SamC'zar
+							SamCzar
 						</SocialLogo>
 						<WebsiteRights>
 							SamCzar {new Date().getFullYear()} All rights reversed .
