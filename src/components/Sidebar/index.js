@@ -32,7 +32,11 @@ const Sidebar = ({ isOpen, toggle }) => {
 					</SidebarLink>
 				</SidebarMenu>
 				<SideBtnWrap>
-					<SidebarRoute to="/chibuzo_samson_anyanka.pdf" onClick={toggle}>
+					<SidebarRoute
+						href="/chibuzo_samson_anyanka.pdf"
+						target="_blank"
+						onClick={toggle}
+					>
 						Download CV
 					</SidebarRoute>
 				</SideBtnWrap>
