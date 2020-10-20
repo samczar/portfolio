@@ -5,8 +5,10 @@ export const AboutMe = {
 	lightTextDec: false,
 	topLine: 'Chibuzo Samson Anyanka',
 	headline: 'Fullstack Javascript and .Net Developer',
-	description: `Innovative optimized solution seeker. Excited to be at the deployment phase of my new career as a web developer. 
-		I am ambitious, adventurous, assiduous, animated, and an alliteration advocate.`,
+	description: `I am a Fullstack Developer. I take pride in the development of Web Apps, Mobile Apps from its planning state, till it gets to deploy to the server. 
+      I am Innovative and an optimized solution seeker.
+     I am ambitious, adventurous, assiduous, animated, and an alliteration advocate.
+     I also support the movement of Pace over Perfection. `,
 	buttonLabel: 'Get Started',
 	imgStart: false,
 	img: require('../../images/svg-1.svg'),
