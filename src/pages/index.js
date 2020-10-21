@@ -3,8 +3,9 @@ import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
-import { AboutMe, Projects, TechStack } from '../components/InfoSection/Data'
+import { AboutMe, TechStack } from '../components/InfoSection/Data'
 import Services from '../components/services'
+import Projects from '../components/projects'
 import Footer from '../components/Footer'
 
 const Home = () => {
@@ -22,7 +23,8 @@ const Home = () => {
 			<InfoSection {...AboutMe} />
 			<Services />
 			<InfoSection {...TechStack} />
-			<InfoSection {...Projects} />
+			{/* <InfoSection {...Projects} /> */}
+			<Projects />
 			<Footer />
 		</>
 	)
