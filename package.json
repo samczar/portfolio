@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "chart.js": "^2.9.4",
     "react": "^16.14.0",
+    "react-chartjs-2": "^2.10.0",
     "react-dom": "^16.14.0",
     "react-icons": "^3.11.0",
     "react-router-dom": "^5.2.0",

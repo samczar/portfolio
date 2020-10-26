@@ -3,10 +3,12 @@ import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
-import { AboutMe, TechStack } from '../components/InfoSection/Data'
+import { AboutMe } from '../components/InfoSection/Data'
 import Services from '../components/services'
 import Projects from '../components/projects'
+import Stack from '../components/stacks'
 import Footer from '../components/Footer'
+// import FrontFramework from '../components/stacks/FrontFramework'
 
 const Home = () => {
 	const [isOpen, setIsOpen] = useState(false)
@@ -22,8 +24,8 @@ const Home = () => {
 			<HeroSection />
 			<InfoSection {...AboutMe} />
 			<Services />
-			<InfoSection {...TechStack} />
-			{/* <InfoSection {...Projects} /> */}
+			<Stack />
+
 			<Projects />
 			<Footer />
 		</>

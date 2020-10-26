@@ -7,3 +7,29 @@
 	padding: 0;
 	font-family: 'Encode Sans Expanded', sans-serif;
 }
+
+#techstacks canvas {
+	height: auto !important;
+	width: 400px !important;
+}
+
+@media screen and (max-width: 1000px) {
+	#techstacks canvas {
+		height: auto !important;
+		width: 366px !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#techstacks canvas {
+		height: auto !important;
+		width: 80% !important;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#techstacks canvas {
+		height: auto !important;
+		width: 100% !important;
+	}
+}
