@@ -5,5 +5,12 @@
 		"view": "https://afrogane.com",
 		"gitLink": "",
 		"image": "./images/afrogane.png"
+	},
+	{
+		"name": "Divine Encounter Schools",
+		"tech": "React.js Node.js",
+		"view": "https://divineencounterschools.com/",
+		"gitLink": "",
+		"image": "./images/divineencounterschools.png"
 	}
 ]
